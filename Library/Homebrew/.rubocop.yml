@@ -8,6 +8,7 @@ AllCops:
   Exclude:
     - '**/Casks/**/*'
     - '**/vendor/**/*'
+    - 'bin/*'
 
 Layout/MultilineMethodCallIndentation:
   Exclude:
