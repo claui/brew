@@ -27,8 +27,9 @@
 # Ignore vendored files within `Library`.
 /Library/Homebrew/vendor/portable-ruby
 
-# Ignore `bin` contents (again).
+# Ignore `bin` contents (again), including Bundler binstubs.
 /bin
+/Library/Homebrew/bin
 
 # Unignore our `brew` script.
 !/bin/brew
